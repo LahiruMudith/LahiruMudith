@@ -6,7 +6,6 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lahirumudith" alt="lahirumudith" /></a> </p>
 
 - 🔭 I’m currently learn in [ACPT - Academy Of Computer Programming And Training](https://acpt.lk/)
-<br>
 - 🌱 I’m currently learning **🌱 I’m currently learning**
 <br>
 - 👯 I’m looking to collaborate on **👯 I’m looking to collaborate on**
