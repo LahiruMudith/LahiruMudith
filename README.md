@@ -7,13 +7,9 @@
 
 - 🔭 I’m currently learn in [ACPT - Academy Of Computer Programming And Training](https://acpt.lk/)
 - 🌱 I’m currently learning **🌱 I’m currently learning**
-<br>
 - 👯 I’m looking to collaborate on **👯 I’m looking to collaborate on**
-<br>
 - 🤝 I’m looking for help with **🤝 I’m looking for help with**
-<br>
 - ⚡ Fun fact **I am funny😚✌️**
-<br>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
