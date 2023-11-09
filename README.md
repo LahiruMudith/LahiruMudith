@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
 <h1 align="center">Hi 👋, I'm Lahiru Mudith ^_^</h1>
 <h3 align="center">A Software engineer student in 🇱🇰 😀🧑🏼‍💻​</h3>
 
@@ -37,9 +31,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lahirumudith&show_icons=true&locale=en" alt="lahirumudith" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=lahirumudith&" alt="lahirumudith" /></p>
-
-
-</body>
-</html>
-
 
