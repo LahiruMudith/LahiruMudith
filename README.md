@@ -6,7 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lahirumudith" alt="lahirumudith" /></a> </p>
 
 - 🌱 I’m currently learning
-- 🔭 I’m currently learn in [Institute of Software Engineering (IJSE)]([[https://acpt.lk/](https://www.ijse.lk/)])
+- 🔭 I’m currently learn in [Institute of Software Engineering (IJSE)]([https://acpt.lk/](https://www.ijse.lk/)])
 - 👯 I’m looking to collaborate on
 - 🤝 I’m looking for help with
 - ⚡ Fun fact **I am funny😚✌️**
