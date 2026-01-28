@@ -1,12 +1,12 @@
 name: Generate Pacman
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule: # every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -16,20 +16,38 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 1. Create the dist folder first
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 1. Create the dist folder
       - name: Create dist directory
         run: mkdir -p dist
 
-      # 2. Generate the Pac-Man graph
-      - name: generate pacman-contribution-graph.svg
+      # 2A. Generate LIGHT svg
+      - name: Generate pacman (light)
+      - uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          svg_out_path: dist/pacman-contribution-graph-light.svg
+
+      # 2B. Generate DARK svg (same generator; we post-process to force colors)
+      # If the action you use supports theme/color inputs, you can remove the sed step
+      # and instead pass theme/pacman_color/background_color etc.
+      - name: Generate pacman (dark)
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Force it to save into the dist folder
-          svg_out_path: dist/pacman-contribution-graph.svg
+          svg_out_path: dist/pacman-contribution-graph-dark.svg
 
-      # 3. Push the file to the output branch
-      - name: push pacman-contribution-graph.svg to the output branch
+      # 3. Force Pac-Man to yellow in both SVGs (prevents "white pacman" due to currentColor)
+      # This is a best-effort fix. If your SVG doesn't contain `currentColor`, this will do nothing.
+      - name: Force colors (avoid currentColor)
+        run: |
+          sed -i 's/currentColor/#f7d51d/g' dist/pacman-contribution-graph-light.svg || true
+          sed -i 's/currentColor/#f7d51d/g' dist/pacman-contribution-graph-dark.svg || true
+
+      # 4. Publish to output branch
+      - name: Push svgs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
