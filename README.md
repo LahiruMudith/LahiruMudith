@@ -24,6 +24,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/LahiruMudith/LahiruMudith/raw/output/pacman-contribution-graph.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/LahiruMudith/LahiruMudith/raw/output/pacman-contribution-graph.svg">
-  <img src="https://github.com/LahiruMudith/LahiruMudith/raw/output/pacman-contribution-graph.svg" alt="Pacman Game" width="100%">
+  <img alt="pacman contribution graph" src="https://github.com/LahiruMudith/LahiruMudith/raw/output/pacman-contribution-graph.svg">
 </picture>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
