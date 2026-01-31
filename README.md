@@ -107,8 +107,6 @@
 
 ## 📊 GitHub Stats
 <div align="center" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
-  <img src="https://github-readme-stats.vercel.app/api?username=LahiruMudith&theme=neon&hide_border=true&include_all_commits=false&count_private=true"
-       alt="GitHub Stats" height="165" />
   <img src="https://nirzak-streak-stats.vercel.app/?user=LahiruMudith&theme=neon&hide_border=true"
        alt="GitHub Streak" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LahiruMudith&theme=neon&hide_border=true&include_all_commits=false&count_private=true&layout=compact"
