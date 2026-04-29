@@ -107,10 +107,10 @@
 </p>
 
 ## 📊 GitHub Stats
-<div align="center" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+<!-- <div align="center" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
   <img src="https://nirzak-streak-stats.vercel.app/?user=LahiruMudith&theme=neon&hide_border=true"
        alt="GitHub Streak" height="165" />
-</div>
+</div> -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/LahiruMudith/LahiruMudith/raw/output/pacman-contribution-graph-dark.svg">
